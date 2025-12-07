@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Go Explore — Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">Go Explore</a>
+      <nav class="menu">
+        <a href="about.html">About</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="packages.html">Packages</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="btn">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-overlay">
+        <div class="container hero-content">
+          <h1>Discover India with<br><span>Go Explore</span></h1>
+          <p>Curated journeys • Local experiences • Student-friendly packages</p>
+          <div class="hero-cta">
+            <a href="destinations.html" class="btn large">Explore Destinations</a>
+            <a href="#packages" class="btn ghost">View Packages</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POPULAR DESTINATIONS -->
+    <section class="section container">
+      <h2 class="section-title">Popular Destinations in India</h2>
+      <p class="muted">Handpicked places to feed your wanderlust — perfect for college trips.</p>
+
+      <div class="cards">
+        <!-- Card 1 -->
+        <article class="card">
+          <figure class="card-media">
+            <img src="images/taj mahal.jpg">
+          </figure>
+          <div class="card-body">
+            <h3>Taj Mahal, Agra</h3>
+            <p>Iconic white marble mausoleum and a timeless symbol of love.</p>
+            <a href="destinations.html" class="card-link">Learn more →</a>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card">
+          <figure class="card-media">
+            <img src="images/jaipur rajasthan.jpg" alt="Jaipur palaces">
+          </figure>
+          <div class="card-body">
+            <h3>Jaipur, Rajasthan</h3>
+            <p>Colorful palaces, forts and timeless Rajasthani culture.</p>
+            <a href="destinations.html" class="card-link">Learn more →</a>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card">
+          <figure class="card-media">
+            <img src="images/kerela backwaters.jpg">
+          </figure>
+          <div class="card-body">
+            <h3>Kerala Backwaters</h3>
+            <p>Serene houseboats, lush palms and calming waterways.</p>
+            <a href="destinations.html" class="card-link">Learn more →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PACKAGES PREVIEW -->
+    <section id="packages" class="section pale">
+      <div class="container">
+        <h2 class="section-title">Student-friendly Packages</h2>
+        <div class="package-grid">
+          <div class="package">
+            <h4>Heritage Weekend</h4>
+            <p>2 nights • Guided tours • Budget-friendly</p>
+            <a href="packages.html" class="btn small">View</a>
+          </div>
+          <div class="package">
+            <h4>Nature Escape</h4>
+            <p>3 nights • Local homestays • Eco-friendly</p>
+            <a href="packages.html" class="btn small">View</a>
+          </div>
+          <div class="package">
+            <h4>Adventure Trail</h4>
+            <p>4 days • Trek & camping • Group discounts</p>
+            <a href="packages.html" class="btn small">View</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="section container why">
+      <h2 class="section-title">Why Choose Go Explore?</h2>
+      <div class="features">
+        <div class="feature">
+          <h3>Student Prices</h3>
+          <p>Special discounts for college groups and early-bird bookings.</p>
+        </div>
+        <div class="feature">
+          <h3>Local Guides</h3>
+          <p>Experience authentic culture with verified local guides.</p>
+        </div>
+        <div class="feature">
+          <h3>Safe & Sustainable</h3>
+          <p>Ethical stays and small-group experiences to reduce impact.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section container">
+      <h2 class="section-title">Student Stories</h2>
+      <div class="testimonials">
+        <blockquote>"Amazing trip! The itinerary was perfect for our college group." — Sneha, CSE</blockquote>
+        <blockquote>"Great value and friendly guides. Will travel again." — Rohit, AI Branch</blockquote>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p>&copy; <span id="year"></span> Go Explore. All rights reserved.</p>
+        <p class="muted">Designed by Astha Patel | CSE (AI)</p>
+      </div>
+      <div class="footer-right">
+        <div class="socials">
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+          <a href="#">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
